@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>formPost</title>
+</head>
+<body>
+	
+	<form action="formServlet" method="post">
+		
+		<table>
+			<tr>
+				<td>Kullanici Adi</td>
+				<td> <input type="text" name ="user" size="20px"/> </td>			
+ 			</tr>
+ 			<tr>
+				<td>Sifre</td>
+				<td> <input type="password" name="password" size="20px"/> </td>			
+ 			</tr>				
+		</table>
+		<br/><br/> 
+		
+		Gitar Türünü Seçiniz.<br/>
+		<input type="radio" name="guitar" value="Klasik"/>Klasik
+		<input type="radio" name="guitar" value="Akustik"/>Akustik
+		<input type="radio" name="guitar" value="Akustik"/>Elektro
+		<input type="radio" name="guitar" value="Akustik"/>Bass
+		<br/><br/>
+		
+		Piano Türünü Seçin<br/>
+	    <input type="checkbox" name="piano" value="Kuyruklu Piyano"/>Kuyruklu Piyano
+		<input type="checkbox" name="piano" value="Duvar Piyanosu"/>Duvar Piyanosu
+		<input type="checkbox" name="piano" value="Elektro Piyano"/>Elektro Piyano
+		<br/><br/>
+		
+		Bir Nota Seçin
+		<select name="notes">
+			<option value="fa">fa<option>
+			<option value="do">do<option>
+			<option value="sol">sol<option>
+			<option value="re">re<option>
+			<option value="la">la<option>
+			<option value="mi">mi<option>
+		</select>		
+		<br/><br/>
+		
+		<input type="submit" value="Gonder"/>  
+		
+	</form>
+
+</body>
+</html>
